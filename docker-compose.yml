@@ -4,3 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      x-bake:
+        platforms: &platforms
+          - linux/amd64
+          - linux/arm64

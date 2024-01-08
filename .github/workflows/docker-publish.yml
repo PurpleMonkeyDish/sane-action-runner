@@ -28,7 +28,8 @@ env:
 jobs:
   build:
 
-    runs-on: purplemonkeydish-runners
+    runs-on:
+      group: Default
     permissions:
       contents: read
       packages: write

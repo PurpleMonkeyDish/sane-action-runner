@@ -1,4 +1,5 @@
 FROM ghcr.io/actions/actions-runner:2.311.0
+USER root
 RUN sudo apt-get update
 RUN sudo apt-get upgrade -y && sudo apt-get clean
 RUN sudo apt-get install curl wget git -y && sudo apt-get clean

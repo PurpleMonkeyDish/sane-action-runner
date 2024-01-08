@@ -1,0 +1,6 @@
+
+services:
+  sane-action-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile

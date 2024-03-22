@@ -1,4 +1,4 @@
-FROM ghcr.io/actions/actions-runner:2.311.0
+FROM ghcr.io/actions/actions-runner:2.314.1
 USER root
 RUN apt-get update
 RUN apt-get upgrade -y && apt-get clean
